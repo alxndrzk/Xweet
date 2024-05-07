@@ -7,7 +7,6 @@ function userReducer(authUser = null, action = {}) {
     case ActionType.UNSET_USER:
       return null;
     default:
-      return authUser;
   }
 }
 
