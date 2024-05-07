@@ -16,6 +16,15 @@ function setUserActionCreator(authUser) {
   };
 }
 
+function setErrorActionCreator(error) {
+  return {
+    type: ActionType.SET_ERROR,
+    payload: {
+      error,
+    },
+  };
+}
+
 function unsetUserActionCreator() {
   return {
     type: ActionType.UNSET_USER,
