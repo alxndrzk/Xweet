@@ -16,8 +16,6 @@ function setUserActionCreator(authUser) {
   };
 }
 
-
-
 function unsetUserActionCreator() {
   return {
     type: ActionType.UNSET_USER,
