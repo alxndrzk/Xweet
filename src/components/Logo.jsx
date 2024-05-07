@@ -4,7 +4,7 @@ export default function Logo() {
   return (
     <Flex mb="2">
       <Image
-        src="public/xweet.png"
+        src="xweet.png"
         alt="xweet logo"
         w="48px"
         h="48px"
