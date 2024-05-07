@@ -36,7 +36,7 @@ export default function LoginPage() {
         >
           <Logo />
           <Heading>Welcome Back</Heading>
-          <Text textAlign="center">Login to continue using Xweet.</Text>
+          <Text textAlign="center">Login to continue using Xweet App.</Text>
         </Flex>
         <LoginForm aunthenticate={manageLogin} />
       </Flex>
