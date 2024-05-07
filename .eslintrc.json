@@ -1,0 +1,43 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "cypress/globals": true
+  },
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended"
+  ],
+  "ignorePatterns": ["dist", ".eslintrc.cjs"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "settings": { "react": { "version": "18.2" } },
+  "plugins": ["react-refresh", "cypress"],
+  "rules": {
+    "react-refresh/only-export-components": [
+      "warn",
+      { "allowConstantExport": true }
+    ],
+    "no-alert" : "off",
+    "import/prefer-default-export": "off",
+    "react/require-default-props": "off",
+    "react/forbid-prop-types": "off",
+    "no-use-before-define": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-shadow" : "off",
+    "react/no-array-index-key": "off",
+    "no-trailing-spaces": "off",
+    "no-self-assign": "off",
+    "prefer-default-export": "off",
+    "import/no-duplicates": "off",
+    "linebreak-style": "off",
+    "max-len": "off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
+  }
+}
